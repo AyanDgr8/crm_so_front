@@ -1,0 +1,97 @@
+/* src/components/routes/Forms/UseForm/UseForm.css */
+
+
+.use-form-container {
+    overflow-y: auto;
+    height: 50vh;
+    background-color: #f4f4f4;
+    padding: 1rem;
+    margin: auto;
+    width: 75%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.list_form_headiii {
+  color: #364C63;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+} 
+  
+.list_form_headiii:hover {
+    color: #EF6F53;
+}
+
+.use-form-container form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.label-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 48%; 
+    margin-bottom: 0.5rem;
+}
+
+.label-input select{
+    font-size: 0.7rem;
+    background-color: white;
+    color: #323232;
+    border: 1px solid #ccc;
+
+}
+
+.use-form-container label {
+    font-weight: bold;
+    margin: 0.35rem;
+    font-size: 0.85rem;
+    color: #364C63;
+    margin-right: 0.5rem;
+    text-align: left;
+    width: 35%; 
+}
+
+.use-form-container input {
+    flex: 1;
+    padding: 0.15rem;
+    border: 1px solid #ccc;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    transition: border-color 0.3s ease;
+    color: #323232;
+    width: 100%;
+}
+
+.use-form-container input:focus {
+    border-color: #364C63;
+    outline: none;
+}
+
+.use-form-container button {
+    background-color: #EF6F53;
+    color: white;
+    padding: 0.15rem;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 10vw;
+    margin: auto;
+}
+
+.use-form-container button:hover {
+    background-color: #df3319;
+}
